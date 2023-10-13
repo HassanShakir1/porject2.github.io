@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  /* font-size: 62.5%; */
+}
+header {
+  background-color: #69d2e8;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+}
+.icon a {
+  border: 1px #fff;
+  color: #69d2e8;
+  background-position: -3px -5px;
+  margin: 0rem 0.5rem;
+  border: 1px #fff;
+  border-radius: 50%;
+  display: inline;
+  align-self: center;
+  justify-content: center;
+}
+.serch input {
+  border: none;
+  color: #fff;
+  opacity: 1;
+  background-color: #69d2e8;
+  font-size: 1rem;
+  padding: 6px 10px 6px 0px;
+  margin: 0rem 0.7rem;
+}
+.serch {
+  color: #fff;
+  padding: 0rem 1rem;
+}
+.serch input::placeholder {
+  color: black;
+}
+.serch input:hover,
+input:focus {
+  border: none;
+  border-color: transparent;
+  outline: none;
+}
+.gmail {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.gmail i {
+  margin-right: 0.3rem;
+  color: #69d2e8;
+}
+
+.gmail h3 {
+  font-size: 0.8rem;
+  margin: 0; /* Remove any default margin to make the text closer to the icon */
+}
+.phone {
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.phone i {
+  margin-right: 0.3rem;
+  color: #69d2e8;
+}
+
+.phone h3 {
+  font-size: 0.8rem;
+  margin: 0; /* Remove any default margin to make the text closer to the icon */
+}
+.img {
+  background-image: url(./bnr1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /* color: #fff; */
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  color: #fff;
+}
+.heading {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-family: "play-bold", sans-serif;
+}
+nav {
+  padding: 4rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 2rem;
+  font-family: "play-normal", sans-serif;
+  font-size: 1rem;
+}
+nav a:hover {
+  color: #f43c60;
+}
+.active {
+  color: #f43c60;
+}
+.bd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-size: 29.6px;
+  font-family: "play-bold", sans-serif;
+  color: #fff;
+}
+.bdt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2vh;
+  color: #fff;
+  margin-top: -7rem;
+  margin-left: 10.5rem;
+  margin-right: 9rem;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2rem;
+  font-family: "play-normal", sans-serif;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f43c60;
+  font-family: "play-bold", sans-serif;
+  font-weight: bold;
+  height: 30vh;
+  font-size: 32px;
+}
+.slide {
+  display: flex;
+  margin-left: -13rem;
+  height: 2vh;
+  margin-top: -3rem;
+}
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: none;
+  width: 45vh;
+  line-height: 2.5rem;
+  height: 50vh;
+  /* padding: 0rem 3rem; */
+}
+
+.container h1 {
+  color: #333333;
+  font-family: "play-bold", sans-serif;
+  font-size: 30.8px;
+  /* text-align: center; */
+}
+.top2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160vh;
+  color: #f43c60;
+  font-family: "play-bold", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.slide2 {
+  margin-top: -22rem;
+  margin-left: 7rem;
+}
+.container2 {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: none;
+  /* text-align: center; */
+  width: 60vh;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  margin-left: 9rem;
+}
+
+.container2 img {
+  /* max-width: 100%; */
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -9rem;
+}
+
+.container2 {
+  color: #333;
+  margin: 0;
+}
